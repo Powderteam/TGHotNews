@@ -10,6 +10,19 @@ class Main
   #
   #   DON'T MODIFY NOTHING HERE UNLESS YOU KNOW WHAT YOU'RE DOING
   #
+  
+  print " /$$          
+|__/          
+ /$$ /$$$$$$$ 
+| $$| $$__  $$
+| $$| $$  \ $$
+| $$| $$  | $$
+| $$| $$  | $$
+|__/|__/  |__/
+              
+              
+              "                                                                                                                                                                                                     
+  
   listofnews = 'null'
   Telegram::Bot::Client.run(token) do |bot|
     ansa = Thread.new {
